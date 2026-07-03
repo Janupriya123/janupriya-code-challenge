@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PlayerService from "../services/player.service";
 
-function GetPlayer() {
+function GetPlayer() { 
     const navigate=useNavigate();
     const [playerId,setPlayerId]=useState("");
     const [player,setPlayer]=useState(null);
