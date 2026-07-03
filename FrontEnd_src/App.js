@@ -5,7 +5,7 @@ import UpdatePlayer from "./components/update-player.component";
 import GetPlayer from "./components/get-player.component";
 import GetPlayerByTeam from "./components/get-player-by-team.component";
 import "./App.css";
-
+ 
 function App() {
   return (
     <BrowserRouter>
