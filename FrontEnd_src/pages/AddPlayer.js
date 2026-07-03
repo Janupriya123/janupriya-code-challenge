@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import PlayerService from "../services/player.service";
 
 function AddPlayer() {
-    const navigate=useNavigate();
+    const navigate=useNavigate(); 
     const values={
         playerName:"",
         jerseyNumber:"",
