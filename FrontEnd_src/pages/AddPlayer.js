@@ -1,5 +1,5 @@
-import { useNavigate } from "react-router-dom";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import {useNavigate} from "react-router-dom";
+import {Formik, Form, Field, ErrorMessage} from "formik";
 import * as Yup from "yup"; 
 import PlayerService from "../services/player.service";
 
@@ -47,7 +47,7 @@ function AddPlayer() {
             .max(500,"Maximum 500 characters")
     });
 
-    const save=(values) => {
+    const save=(values)=>{
         PlayerService.create(values)
             .then(()=>{
                 navigate("/");
