@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import PlayerService from "../services/player.service";
 
 function GetPlayerByTeam() {
-    const navigate=useNavigate();
+    const navigate=useNavigate(); 
     const [teamName,setTeamName]=useState("");
     const [players,setPlayers]=useState([]);
     const getPlayerByTeam=()=> {
