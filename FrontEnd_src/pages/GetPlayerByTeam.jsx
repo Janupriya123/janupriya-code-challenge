@@ -27,7 +27,7 @@ function GetPlayerByTeam(){
             <h2>Search Players By Team Name</h2>
             <div className="mb-3">
                 <label>Team Name</label>
-                <inputtype="text" className="form-control" value={teamName} onChange={(e)=>setTeamName(e.target.value)} />
+                <input type="text" className="form-control" value={teamName} onChange={(e)=>setTeamName(e.target.value)} />
             </div>
             <button className="btn btn-primary me-2" onClick={getPlayerByTeam}>Search
             </button>
