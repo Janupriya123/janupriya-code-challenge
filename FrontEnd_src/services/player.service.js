@@ -4,7 +4,7 @@ class PlayerService {
     getAll() 
     {
         return http.get("/players");
-    }
+    } 
 
     get(playerId) 
     {
