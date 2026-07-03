@@ -15,7 +15,7 @@ function GetPlayer() {
             .then((response)=>{
                 setPlayer(response.data);
             })
-            .catch((e) => {
+            .catch((e)=>{
                 console.log(e);
                 alert("Player Not Found");
                 setPlayer(null);
